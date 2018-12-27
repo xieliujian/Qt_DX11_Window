@@ -11,18 +11,20 @@
 
 NAMESPACEBEGIN(GameEngine)
 
-class D3DApplication : Application
+class D3DApplication : public Application
 {
 public:
 	D3DApplication(HINSTANCE mhAppInst);
 	~D3DApplication();
 
 	virtual bool Init();
-	virtual bool InitQt(HWND hwnd);
-	virtual void RenderQt();
 	virtual int Run();
 	virtual void Clear();
 	virtual void Present();
+
+	virtual bool InitQt(HWND hwnd);
+	virtual void RenderQt();
+	virtual void ResetQt();
 
 	virtual void UpdateScene(float dt){}
 	virtual void DrawScene();

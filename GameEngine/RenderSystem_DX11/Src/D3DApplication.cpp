@@ -198,6 +198,11 @@ void D3DApplication::RenderQt()
 	DrawScene();
 }
 
+void D3DApplication::ResetQt()
+{
+	OnResize();
+}
+
 int D3DApplication::Run()
 {
 	MSG msg = { 0 };
