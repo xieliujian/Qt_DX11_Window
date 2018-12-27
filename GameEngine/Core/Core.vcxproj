@@ -97,6 +97,7 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\..\lib</OutDir>
     <IntDir>..\..\Intermediate\$(Configuration)\$(ProjectName)</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

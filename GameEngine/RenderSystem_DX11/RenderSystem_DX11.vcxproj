@@ -81,6 +81,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IntDir>..\..\Intermediate\$(Configuration)\$(ProjectName)</IntDir>
     <OutDir>..\..\lib</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>..\..\Intermediate\$(Configuration)\$(ProjectName)</IntDir>
