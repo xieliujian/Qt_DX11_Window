@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple", "simple\simple.vcxproj", "{BBD01D70-DD57-361F-B7F2-00C2CC125A1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas_variant", "canvas_variant\canvas_variant.vcxproj", "{84574BF2-3CA3-3BBA-8909-2F87834A856E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "canvas_typed", "canvas_typed\canvas_typed.vcxproj", "{A9FAC279-8C79-3DDE-849E-8DD3923EB0C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "demo\demo.vcxproj", "{762F7A5D-1F47-3BE4-8B31-3133C17EB23E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decoration", "decoration\decoration.vcxproj", "{7CEA6203-627B-315F-A9A2-DFD1D9302130}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "extension", "extension\extension.vcxproj", "{885CEB20-5AF8-30B4-A9AB-1187EF4505DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object_controller", "object_controller\object_controller.vcxproj", "{FE1EADED-0EE3-3ADF-8B09-A3E9B2035DCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBD01D70-DD57-361F-B7F2-00C2CC125A1A}.Debug|x64.ActiveCfg = Debug|x64
+		{BBD01D70-DD57-361F-B7F2-00C2CC125A1A}.Debug|x64.Build.0 = Debug|x64
+		{BBD01D70-DD57-361F-B7F2-00C2CC125A1A}.Release|x64.ActiveCfg = Release|x64
+		{BBD01D70-DD57-361F-B7F2-00C2CC125A1A}.Release|x64.Build.0 = Release|x64
+		{84574BF2-3CA3-3BBA-8909-2F87834A856E}.Debug|x64.ActiveCfg = Debug|x64
+		{84574BF2-3CA3-3BBA-8909-2F87834A856E}.Debug|x64.Build.0 = Debug|x64
+		{84574BF2-3CA3-3BBA-8909-2F87834A856E}.Release|x64.ActiveCfg = Release|x64
+		{84574BF2-3CA3-3BBA-8909-2F87834A856E}.Release|x64.Build.0 = Release|x64
+		{A9FAC279-8C79-3DDE-849E-8DD3923EB0C0}.Debug|x64.ActiveCfg = Debug|x64
+		{A9FAC279-8C79-3DDE-849E-8DD3923EB0C0}.Debug|x64.Build.0 = Debug|x64
+		{A9FAC279-8C79-3DDE-849E-8DD3923EB0C0}.Release|x64.ActiveCfg = Release|x64
+		{A9FAC279-8C79-3DDE-849E-8DD3923EB0C0}.Release|x64.Build.0 = Release|x64
+		{762F7A5D-1F47-3BE4-8B31-3133C17EB23E}.Debug|x64.ActiveCfg = Debug|x64
+		{762F7A5D-1F47-3BE4-8B31-3133C17EB23E}.Debug|x64.Build.0 = Debug|x64
+		{762F7A5D-1F47-3BE4-8B31-3133C17EB23E}.Release|x64.ActiveCfg = Release|x64
+		{762F7A5D-1F47-3BE4-8B31-3133C17EB23E}.Release|x64.Build.0 = Release|x64
+		{7CEA6203-627B-315F-A9A2-DFD1D9302130}.Debug|x64.ActiveCfg = Debug|x64
+		{7CEA6203-627B-315F-A9A2-DFD1D9302130}.Debug|x64.Build.0 = Debug|x64
+		{7CEA6203-627B-315F-A9A2-DFD1D9302130}.Release|x64.ActiveCfg = Release|x64
+		{7CEA6203-627B-315F-A9A2-DFD1D9302130}.Release|x64.Build.0 = Release|x64
+		{885CEB20-5AF8-30B4-A9AB-1187EF4505DF}.Debug|x64.ActiveCfg = Debug|x64
+		{885CEB20-5AF8-30B4-A9AB-1187EF4505DF}.Debug|x64.Build.0 = Debug|x64
+		{885CEB20-5AF8-30B4-A9AB-1187EF4505DF}.Release|x64.ActiveCfg = Release|x64
+		{885CEB20-5AF8-30B4-A9AB-1187EF4505DF}.Release|x64.Build.0 = Release|x64
+		{FE1EADED-0EE3-3ADF-8B09-A3E9B2035DCE}.Debug|x64.ActiveCfg = Debug|x64
+		{FE1EADED-0EE3-3ADF-8B09-A3E9B2035DCE}.Debug|x64.Build.0 = Debug|x64
+		{FE1EADED-0EE3-3ADF-8B09-A3E9B2035DCE}.Release|x64.ActiveCfg = Release|x64
+		{FE1EADED-0EE3-3ADF-8B09-A3E9B2035DCE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = 5.12.0
+	EndGlobalSection
+EndGlobal
