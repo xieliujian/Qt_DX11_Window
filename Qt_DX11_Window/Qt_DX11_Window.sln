@@ -7,6 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt_DX11_Window", "Qt_DX11_W
 	ProjectSection(ProjectDependencies) = postProject
 		{7E65F89C-6209-4D97-8298-1111C2E93D99} = {7E65F89C-6209-4D97-8298-1111C2E93D99}
 		{0AFC2ABB-CD30-4FF2-A38D-F2C1537EAC85} = {0AFC2ABB-CD30-4FF2-A38D-F2C1537EAC85}
+		{A2144DD2-D0C4-479E-81BC-4CBC2DF55843} = {A2144DD2-D0C4-479E-81BC-4CBC2DF55843}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "..\GameEngine\Core\Core.vcxproj", "{0AFC2ABB-CD30-4FF2-A38D-F2C1537EAC85}"
@@ -15,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderSystem_DX11", "..\Gam
 	ProjectSection(ProjectDependencies) = postProject
 		{0AFC2ABB-CD30-4FF2-A38D-F2C1537EAC85} = {0AFC2ABB-CD30-4FF2-A38D-F2C1537EAC85}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtpropertybrowser", "..\External\qtpropertybrowser\buildlib\qtpropertybrowser.vcxproj", "{A2144DD2-D0C4-479E-81BC-4CBC2DF55843}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,10 @@ Global
 		{7E65F89C-6209-4D97-8298-1111C2E93D99}.Debug|x64.Build.0 = Debug|x64
 		{7E65F89C-6209-4D97-8298-1111C2E93D99}.Release|x64.ActiveCfg = Release|x64
 		{7E65F89C-6209-4D97-8298-1111C2E93D99}.Release|x64.Build.0 = Release|x64
+		{A2144DD2-D0C4-479E-81BC-4CBC2DF55843}.Debug|x64.ActiveCfg = Debug|x64
+		{A2144DD2-D0C4-479E-81BC-4CBC2DF55843}.Debug|x64.Build.0 = Debug|x64
+		{A2144DD2-D0C4-479E-81BC-4CBC2DF55843}.Release|x64.ActiveCfg = Release|x64
+		{A2144DD2-D0C4-479E-81BC-4CBC2DF55843}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
