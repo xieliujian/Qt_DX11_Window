@@ -5,6 +5,9 @@
 #include "QD3D11Widget.h"
 #include <QDockWidget>
 #include <QTreeWidget>
+#include "qtpropertymanager.h"
+#include "qtvariantproperty.h"
+#include "qttreepropertybrowser.h"
 
 class Qt_DX11_Window : public QMainWindow
 {
@@ -15,10 +18,10 @@ public:
 
 private:
 	void AddDockWindow();
-
+	void CreatePropertyGrid();
 private:
 	//Ui::Qt_DX11_WindowClass ui;
 	QD3D11Widget *mD3D11Widget;
 	QDockWidget *mPropertyDock;
-	QTreeWidget *mTreeWidget;
+	QtTreePropertyBrowser *mPropertyBrowser;
 };
