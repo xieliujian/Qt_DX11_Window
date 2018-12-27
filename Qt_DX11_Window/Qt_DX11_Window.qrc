@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="Qt_DX11_Window">
+    </qresource>
+</RCC>
